@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function myFunction() {
+    location.replace("fly.html")
+  }
+ 
+    </script>
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Pacifico&display=swap" rel="stylesheet">
+    <style>
+        .aa {
+            background-color: rgb(148, 38, 23);
+            list-style: none;
+            text-align: center;
+            margin-left: 0;
+            padding-top: 3%;
+            font-size: 120%;
+            color: white;
+            transition-property: background-color, padding, font-size, border-radius;
+            transition-duration: 0.3s;
+            transition-timing-function: linear;
+            border: 2px solid rgb(148, 38, 23);
+            border-radius: 40%;
+            margin-top: 10px;
+        }
+
+        .aa:hover {
+            background-color: tomato;
+            padding: 3.7%;
+            font-size: 127%;
+            border-radius: 47%;
+            cursor: pointer;
+        }
+
+
+
+        .lefta {
+            float: left;
+            width: 17%;
+
+
+        }
+
+        @media screen and (max-width: 600px) {
+
+
+            .lefta {
+                width: 100%;
+
+            }
+
+            .righta {
+                width: 100%;
+
+            }
+
+            .slideshow-container {
+                width: 100%;
+            }
+
+            .about {
+                width: 100%;
+            }
+
+            .specs {
+                width: 100%;
+            }
+
+            .aabt {
+                width: 100%;
+            }
+
+            .nav,
+            .titl.origin {
+                width: 100%;
+            }
+
+            section {
+                width: 100%;
+            }
+        }
+
+        .left2 {
+            background-color: rgb(251, 253, 128);
+            display: block;
+            box-sizing: border-box;
+            background-image: url("q2.jpg");
+            font-size: 140%;
+            height: 350px;
+            border: 1px solid hotpink;
+        }
+
+        .lin {
+            margin-left: 7%;
+            margin-top: 60%;
+            font-family: 'Pacifico', cursive;
+            align-content: space-between;
+
+        }
+
+        .righta {
+            float: right;
+            width: 17%;
+            background-color: rgb(17, 59, 17);
+            color: rgb(255, 218, 6);
+            font-size: 200%;
+            font-family: "28 Days Later";
+            text-align: center;
+
+        }
+
+        body {
+            background-image: url("bf.jpg")
+        }
+
+
+        .power {
+            font-size: 200%;
+            font-family: "hobo std";
+            text-transform: capitalize;
+            color: rgb(255, 238, 0);
+        }
+
+        .colo {
+            color: rgb(255, 0, 0);
+        }
+
+        nav a {
+            background-color: white;
+            background-: ;
+            padding: 15px;
+            margin: 0;
+            transition-property: padding, opacity;
+            ;
+            transition-duration: 0.5s;
+            opacity: 0.8;
+
+
+        }
+
+        nav a:hover {
+
+            padding: 20px;
+            margin: 0;
+            color: yellow;
+            opacity: 1;
+            cursor: pointer;
+        }
+
+        .QUOTE {
+            margin-left: 17%;
+            margin-right: 17%;
+            text-align: center;
+            font-size: 500%;
+            font-family: "HOBO STD";
+            background-image: linear-gradient(ORANGE, WHITE, GREEN);
+        }
+
+        .specs {
+            align-items: center;
+            background-color: green;
+            margin-left: 17%;
+            margin-right: 17%;
+
+        }
+
+        .specss {
+            width: 450px;
+            align-self: center;
+            border: solid gray;
+            /* border-top-right-radius: 7%;
+            border-top-left-radius: 7%; */
+            display: inline-block;
+
+        }
+
+        section {
+            width: 550px;
+            float: right;
+            font-size: 300%;
+            text-align: center;
+            /* background-color: khaki; */
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+
+        .aabt {
+            text-align: left;
+            /* list-style-image: url('list1.jpg'); */
+        }
+
+        .menuu {
+            font-size: 64%;
+            color: rgb(249, 253, 10);
+        }
+
+        section li a:hover {
+            color: rgb(255, 209, 4);
+        }
+
+        .a {
+            width: 550px;
+        }
+
+        .about {
+            background-image: url("back.jpg");
+            margin-left: 17%;
+            margin-right: 17%;
+
+        }
+
+        h2 {
+            color: red;
+            font-size: 200%;
+            margin-left: 2%;
+        }
+
+        .defi {
+            color: blue;
+            margin-left: 4%;
+            margin-right: 4%;
+        }
+
+        .bout {
+            color: rgb(190, 1, 175);
+            margin-left: 8%;
+        }
+
+        .origin {
+            margin-left: 17%;
+            margin-right: 17%;
+            /* background-color: rgb(201, 223, 142); */
+            background-image: url("dddd.jpg");
+
+        }
+
+        .origin img {
+            align-items: center;
+            width: 70%;
+            height: 450px;
+            margin-left: 14%;
+
+        }
+
+        .titl {
+            text-align: center;
+            font-size: 400%;
+            color: rgb(238, 255, 0);
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            background-color: rgb(248, 29, 0);
+            background-image: url("ddd.jpg");
+            margin-left: 17%;
+            margin-right: 17%;
+            font-weight: 900;
+        }
+
+        .content {
+            background-color: rgb(201, 223, 142);
+            margin-left: 17%;
+            margin-right: 17%;
+
+        }
+
+        h1 {
+            font-size: 200%;
+            color: red;
+            font-weight: bold;
+        }
+
+        b {
+            color: teal;
+
+        }
+
+        h3 {
+            color: blue;
+            margin-left: 3%;
+            font-size: large;
+
+        }
+        .endd{
+            background-color: rgb(255, 238, 0);
+            text-align: center;
+            font-size: x-large;
+            color: saddlebrown;
+        }
+        
+        .fa-facebook {
+            background: rgb(13, 0, 85);
+            color: rgb(255, 255, 255);
+
+        }
+
+        .fa-twitter {
+            background: #55ACEE;
+            color: white;
+        }
+
+        .fa-linkedin {
+            background: #007bb5;
+            color: white;
+        }
+        .asd {
+            background-color: rgb(27, 66, 36);
+            padding: 10px;
+            color: white;
+        }
+        .fa {
+            padding-right: 15px;
+            padding-bottom: 15px;
+            padding-top: 15px;
+            padding-left: 15px;
+            font-size: 15px;
+            width: px;
+            text-align: center;
+            text-decoration: none;
+            border-radius: 50%;
+        }
+        .fafu{
+            display: block;
+            float:right;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="text-gray-700 body-font">
+        <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+            <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+                <img src="logo.png" class="object-scale-down h-15 w-12">
+                <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
+
+                <span class="power ml-3 text-xl">POWER IN WINGS</span>
+            </a>
+            <br>
+            <nav class="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center">
+                <a href="index.html" class="mr-5 hover:text-gray-900 colo">HOME</a>
+                <a href="specs.html" class="mr-5 hover:text-gray-900 colo">SPECIFICATIONS</a>
+                <a href="https://www.rafael.co.il/" target="_blank" class="mr-5 hover:text-gray-900 colo">OFFICIAL WEBSITE</a>
+                <a href="cost.html" class="mr-5 hover:text-gray-900 colo">PROJECT COST</a>
+            </nav>
+            <button onclick="myFunction()"
+                class="inline-flex items-center bg-gray-200 border-0 py-1 px-3 focus:outline-none hover:bg-red-300 rounded text-base mt-4 md:mt-0">Watch
+                it Fly!
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                    class="w-4 h-4 ml-1" viewBox="0 0 24 24">
+                    <path d="M5 12h14M12 5l7 7-7 7"></path>
+                </svg>
+            </button>
+        </div>
+    </header>
+    <div class="lefta">
+        <ul>
+            <li class="aa"><a href="origin.html">Origin</a></li>
+            <li class="aa"><a href="design.html">Design</a></li>
+            <li class="aa"><a href="deal.html">Indian Rafael Deal</a></li>
+        </ul><br>
+        <div class="left2">
+            <p class="lin">
+                Even the fastest fighter jet needs a runway to fly......So enjoy the runway and get ready to fly?
+            </p>
+        </div>
+    </div>
+
+    <div class="righta">
+        "The fearless are merely fearless.The people who act inspite of their fear are truly brave."
+    </div>
+
+    <div class="titl">
+        DESIGN
+    </div>
+    <div class="origin">
+        <img class="flagg" src="dc.jpg">
+    </div>
+    <div class="about">
+        <h2>#Overview</h2>
+        <p class="defi">✈&nbsp;The Rafale was developed as a modern jet fighter
+            with a very high level of agility. <br> ✈&nbsp;It is capable of withstanding
+            from −3.6g to 9g (10.5g on Rafale solo display and a maximum
+            of 11g can be reached in case of emergency).<br>✈&nbsp;
+            It is an aerodynamically unstable aircraft and
+            uses digital fly-by-wire flight controls to artificially
+            enforce and maintain stability.<br>✈&nbsp;It's
+            canards also act to reduce the minimum landing speed to
+            115 knots (213 km/h; 132 mph); while in flight, airspeeds
+            as low as 15 knots (28 km/h; 17 mph) have been observed
+            during training missions.<br> ✈&nbsp;According to simulations by
+            Dassault, the Rafale has sufficient low speed performance
+            to operate from STOBAR-configured aircraft carriers, and
+            can take off using a ski-jump with no modifications.</p> <br>
+        <p class="bout">@ Maximum speed: 2,223 km/h <br>
+            @ Combat range: 1,850 km <br>
+            @ Ferry range: 3,700 km <br>
+           </p><br><br>
+        <h2>#Radar signature</h2>
+        <p class="defi">✈&nbsp; Although not a full-aspect stealth aircraft,
+            the cost of which was viewed as unacceptably excessive, the Rafale
+            was designed for a reduced radar cross-section (RCS) and infrared
+            signature .<br>✈&nbsp;In order to reduce the RCS, changes from the
+            initial technology demonstrator include a reduction in the size of
+            the tail-fin, fuselage reshaping, repositioning of the engine air
+            inlets underneath the aircraft's wing, and the extensive use of
+            composite materials and serrated patterns were used for the construction
+            of the trailing edges of the wings and canards.
+            <br>✈&nbsp;Seventy percent of the Rafale's surface area is composite.</p><br>
+        <p class="bout">
+            @ g limits: +9 −3.6 (+11 in emergencies)<br></p><br><br>
+        <h2>#Cockpit</h2>
+        <p class="defi">✈&nbsp; The Rafale's glass cockpit was designed around the principle
+            of data fusion—a central computer selects and prioritises information to display
+            to pilots for simpler command and control.
+            <br>✈&nbsp;Great emphasis has been placed on pilot workload minimisation across all operations.
+            <br>✈&nbsp;For displaying information gathered from a range of sensors across the aircraft,
+            the cockpit features a wide-angle holographic head-up display (HUD) system has been made.
+
+        <p class="bout">@ Max takeoff weight: 24,500 kg (54,013 lb) <br>
+        @ Crew: 1 or 2</p><br><br>
+        <h2>#Avionics and equipment</h2>
+        <p class="defi">✈&nbsp; The Rafale core avionics systems employ an integrated modular avionics (IMA),
+            alled MDPU (modular data processing unit).
+            <br>✈&nbsp;The Rafale features an integrated defensive-aids system named SPECTRA, which protects
+             the aircraft against airborne and ground threats.
+            <br>✈&nbsp;The Rafale's ground attack capability is heavily reliant
+             upon sensory targeting pods.</p> <br><br>
+        
+        <h2>#Radar and sensors</h2>
+        <p class="defi">✈&nbsp; The Rafale was first outfitted with the Thales RBE2 passive
+            electronically scanned multi-mode radar.<br>✈&nbsp;The RBE2 AA active electronically
+            scanned array (AESA) radar now replaces the previous passively scanned RBE2.
+            The RBE2 AA is reported to deliver a greater detection range of 200 km.
+            <br>✈&nbsp;To enable the Rafale to perform in the air supremacy role, it includes
+            several passive sensor systems. The front-sector electro-optical system or
+            Optronique Secteur Frontal (OSF), developed by Thales, is completely integrated
+            within the aircraft and can operate both in the visible and infrared wavelengths.</p>
+        <p class="bout">@ RecceLite XR™ (24/7 Real-Time Reconnaissance).<br>
+        </p>
+        <br><br>
+        <h2>#Armament and standards</h2>
+        <p class="defi">✈&nbsp; Initial deliveries of the Rafale M were to the F1
+            ("France 1") standard, these had been equipped for the air-to-air interceptor
+            combat duties, but lacked any armament for air-to-ground operations.
+            <br>✈&nbsp;F3 standard Rafales are capable of undertaking many different mission
+            roles with a range of equipment, namely air defence/superiority missions with
+            Mica IR and EM air-to-air missiles, and precision ground attacks typically
+            using SCALP EG cruise missiles and AASM Hammer air-to-surface missiles.
+            <br>✈&nbsp;The F4 standard program was launched on 20 March 2017 by the
+            French ministry of defence.
+            <br>✈&nbsp;The F4 standard program is the rafale purchased by India</p><br><br>
+        <h2>#Engines</h2>
+        <p class="defi">✈&nbsp; The Rafale is fitted with two Snecma M88 engines,
+            each capable of providing up to 50 kilonewtons (11,000 pounds-force)
+            of dry thrust and 75 kN (17,000 lbf) with afterburners.
+            <br>✈&nbsp;Qualification of the M88-2 engine ended in 1996 and the first
+            production engine was delivered by the end of the year.
+            <br>✈&nbsp;Due to delays in engine production, the Rafale A demonstrator
+            was initially powered by the General Electric F404 engine.
+            <br>✈&nbsp;In May 2010, a Rafale flew for the first time with the M88-4E engine,
+            an upgraded variant with greater thrust and lower maintenance requirements than
+            the preceding M88-2.</p><br><br><br><br>
+            <p class="endd">Source : Wikipedia</p>
+    </div>
+    <footer>
+        <div class="asd">
+            © 2020 POWER IN WINGS All rights reserved.
+            <div class="fafu"></div>
+            <a href="https://www.facebook.com/satvik.srivastav.56?epa=SEARCH_BOX" class="fa fa-facebook"></a>&nbsp;&nbsp;&nbsp;
+            <a href="https://twitter.com/dakshsatvik"class="fa fa-twitter"></a>&nbsp;&nbsp;&nbsp;
+            <a href="https://www.linkedin.com/in/satvik-srivastav-487517164/" class="fa fa-linkedin"></a>&nbsp;&nbsp;&nbsp;</div>
+        </div>
+    </footer>
+    <script>
+
+    </script>
+</body>
+
+</html>
